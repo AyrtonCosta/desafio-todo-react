@@ -1,0 +1,52 @@
+.taskListContainer {
+    width: 100%;
+    background: #262626;
+    border: 1px solid  #333333;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-top: 12px;
+}
+
+.taskListContainer p {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 140%;
+  color: #f2f2f2;
+  margin-right: auto;
+}
+
+.check {
+    min-width: 1.125rem;
+    height: 1.125rem;
+    background: none;
+    border: none;
+}
+
+.check svg {
+    width: 100%;
+    height: 100%;
+    color:  white;
+    background-color: #8284FA;
+    border-radius: 50px;
+}
+.check div {
+    width: 100%;
+    height: 100%;
+    border-radius: 999px;
+    border: 2px solid #4EA8DE;;
+}
+
+.deleteTask {
+    background: none;
+    border: none;
+    color: #f2f2f2;
+}
+
+p.taskCompleted {
+    text-decoration: line-through;
+    color: #808080;
+}

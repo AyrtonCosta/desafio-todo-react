@@ -1,0 +1,60 @@
+.tasks {
+width: 100%;
+max-width: 46rem;
+margin: 0 auto;
+margin-top: 5.625rem;
+padding: 0 1rem;
+}
+
+.header  {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+} 
+
+.header div {
+  display: flex;
+  align-items: center;
+ gap: 0.8rem;
+}
+
+.header p {
+  color: #4EA8DE;;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.header p.textPurple {
+  color: #8284FA;;
+}
+
+.header span {
+  background:  #333333;;
+  color:  #D9D9D9;;
+  padding: 3px 9px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.taskList{
+  display: flex;
+  flex-direction: column;
+  gap:0.125rem;
+}
+
+.emptyTask {
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.5px;
+  color: #808080;
+  text-align: center;
+} 
+
+.emptyTask p {
+  font-weight: 700;
+}
